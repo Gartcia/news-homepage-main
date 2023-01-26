@@ -28,8 +28,12 @@ nav{
     gap: 30px;
 }
 a{
+    transition: 0.2s;
     color: black;
     text-decoration:none;
+}
+a:hover{
+    color: hsl(35, 77%, 62%);
 }
 .grid-hero-container{
     display: grid;
@@ -74,6 +78,11 @@ a{
     border: none;
     text-transform: uppercase;
     letter-spacing: 4px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+#read-more:hover{
+    background-color: hsl(240, 100%, 5%);
 }
 .flex-news{
     padding: 30px;
@@ -94,6 +103,11 @@ a{
     color: white;
     font-size: 1.4em;
     padding: 10px 0px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.flex-news h3:hover{
+    color: hsl(35, 77%, 62%);
 }
 .flex-news p{
     font-family: "Inter",sans-serif;
@@ -138,6 +152,11 @@ a{
     font-size: 1.1em;
     color: hsl(240, 100%, 5%);
     font-weight: 700;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.flex-new h2:hover{
+    color: hsl(35, 77%, 62%);
 }
 .flex-new p{
     font-family: "Inter", sans-serif;
